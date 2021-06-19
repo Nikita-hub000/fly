@@ -1,0 +1,71 @@
+.Card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgb(122 122 122 / 50%);
+    border-radius: 20px;
+    max-width: 600px;
+    background: white;
+}
+.Card-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    border-right: 1px solid grey;
+}
+.Card-company{
+    width: 100px;
+    height: 100px;
+}
+
+.Card-buy{
+    margin-top: 5px;
+    border-radius: 20px;
+    color: white;
+    width: 100px;
+    font-size: 15px;
+    height: 70px;
+    background-color: orange;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.Card-box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-right: 0;
+}
+.Card-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.Card-time{
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.Card-city{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.Card-date{
+    color: grey;
+    font-size: 14px;
+    margin-top: 2px;
+}
+.Card-stop{
+    color: grey;
+    font-size: 10px;
+    width: 70px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}

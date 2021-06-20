@@ -7,7 +7,7 @@
     margin-bottom: 10px;
     box-shadow: 0 0 5px rgb(122 122 122 / 50%);
     border-radius: 20px;
-    max-width: 600px;
+    width: 600px;
     background: white;
 }
 .Card-price{
@@ -33,6 +33,7 @@
     background-color: orange;
     justify-content: center;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .Card-box{
     display: flex;

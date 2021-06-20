@@ -1,4 +1,11 @@
 .App {
-  text-align: center;
+  text-align: center;  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.App-box{
+  display: flex;
+  flex-direction: column;
 }
 

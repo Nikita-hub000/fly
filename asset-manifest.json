@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fly/static/css/main.73da1233.chunk.css",
+    "main.js": "/fly/static/js/main.708686b9.chunk.js",
+    "main.js.map": "/fly/static/js/main.708686b9.chunk.js.map",
+    "runtime-main.js": "/fly/static/js/runtime-main.a3d102f3.js",
+    "runtime-main.js.map": "/fly/static/js/runtime-main.a3d102f3.js.map",
+    "static/js/2.e9cee698.chunk.js": "/fly/static/js/2.e9cee698.chunk.js",
+    "static/js/2.e9cee698.chunk.js.map": "/fly/static/js/2.e9cee698.chunk.js.map",
+    "static/js/3.9ae1cc43.chunk.js": "/fly/static/js/3.9ae1cc43.chunk.js",
+    "static/js/3.9ae1cc43.chunk.js.map": "/fly/static/js/3.9ae1cc43.chunk.js.map",
+    "index.html": "/fly/index.html",
+    "static/css/main.73da1233.chunk.css.map": "/fly/static/css/main.73da1233.chunk.css.map",
+    "static/js/2.e9cee698.chunk.js.LICENSE.txt": "/fly/static/js/2.e9cee698.chunk.js.LICENSE.txt",
+    "static/media/Turkish-Airlines-Logo.705298bb.jpg": "/fly/static/media/Turkish-Airlines-Logo.705298bb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3d102f3.js",
+    "static/js/2.e9cee698.chunk.js",
+    "static/css/main.73da1233.chunk.css",
+    "static/js/main.708686b9.chunk.js"
+  ]
+}

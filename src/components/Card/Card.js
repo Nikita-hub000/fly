@@ -1,12 +1,17 @@
 import "./Card.css";
 import logo from './Turkish-Airlines-Logo.jpg';
+
 function Card(props) {
+    const { isClickedR, isClickedS } = props
     const {origin, originName, price, stop, departDate, departTime, arrivalTime, arrivalDate, destination, destinationName} = props
+
+ 
   return (
+   
     <section className="Card">
       <div className="Card-price">
         <img className="Card-company" alt="company" src={logo} />
-        <button className="Card-buy">Купить за {price}</button>
+        <button className="Card-buy">Купить за {isClickedR ? price : isClickedS ? Math.round(price/73) : Math.round(price/87)} {isClickedR ? "₽" : isClickedS ? "$": "€"}</button>
       </div>
       <div className="Card-box">
         <div className="Card-details">
